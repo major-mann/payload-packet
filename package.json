@@ -1,0 +1,48 @@
+{
+    "name": "@major-mann/payload-packet",
+    "version": "1.0.0",
+    "description": "A package with an envelope structure that can be effeciently read from a buffer",
+    "main": "index.js",
+    "scripts": {
+        "test": "grunt test",
+        "quality": "grunt quality",
+        "cover": "grunt cover",
+        "precommit": "npm test",
+        "prepush": "npm test",
+        "bump": "./node_modules/.bin/bump"
+    },
+    "author": "Calvin Mann <calvinmann+npm@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@major-mann/base-lib": "git+ssh://git@github.com/major-mann/base-lib.git",
+        "chai": "latest",
+        "chai-as-promised": "latest",
+        "chai-spies": "latest",
+        "command-exists": "latest",
+        "eslint": "latest",
+        "eslint-plugin-import": "latest",
+        "grunt": "latest",
+        "grunt-complexity": "latest",
+        "grunt-eslint": "latest",
+        "grunt-filenames": "latest",
+        "grunt-jsinspect": "latest",
+        "grunt-jsonlint": "latest",
+        "grunt-mocha-test": "latest",
+        "grunt-shell": "latest",
+        "husky": "latest",
+        "istanbul": "latest",
+        "minimist": "latest",
+        "mocha": "latest",
+        "mockery": "latest",
+        "npm": "latest",
+        "parse-git-config": "latest",
+        "sinon": "latest",
+        "winston-spy": "latest",
+        "@major-mann/eslint-config-personal-rules": "git+ssh://git@github.com/major-mann/eslint-config-personal-rules.git"
+    },
+    "engines": {
+        "node": "8.0.0",
+        "npm": "5.0.0"
+    },
+    "keywords": ""
+}
