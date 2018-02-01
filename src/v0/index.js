@@ -12,7 +12,7 @@
  *  ------------------------------------
  *  4bytes  - contextId             - The unique id of the request. Only defined if context is true
  *  ------------------------------------
- *  1bit    - sub.source            - Whether the dynamic context id was defined at the request source or not. This is only
+ *  1bit    - sub.source            - Whether the dynamic context id was defined by the creator of the envelope. This is only
  *                                      defined if subContext is true.
  *  7bits   - sub.id                - The id of the sub context. This is only defined if subContext is true.
  *  ------------------------------------
