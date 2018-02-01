@@ -15,9 +15,10 @@
     "license": "MIT",
     "devDependencies": {
         "@major-mann/base-lib": "git+ssh://git@github.com/major-mann/base-lib.git",
+        "@major-mann/eslint-config-personal-rules": "git+ssh://git@github.com/major-mann/eslint-config-personal-rules.git",
         "chai": "latest",
         "chai-as-promised": "latest",
-        "chai-spies": "latest",
+        "chai-spies": "^1.0.0",
         "command-exists": "latest",
         "eslint": "latest",
         "eslint-plugin-import": "latest",
@@ -37,8 +38,7 @@
         "npm": "latest",
         "parse-git-config": "latest",
         "sinon": "latest",
-        "winston-spy": "latest",
-        "@major-mann/eslint-config-personal-rules": "git+ssh://git@github.com/major-mann/eslint-config-personal-rules.git"
+        "winston-spy": "latest"
     },
     "engines": {
         "node": "8.0.0",
